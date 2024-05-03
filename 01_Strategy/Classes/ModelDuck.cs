@@ -4,8 +4,8 @@ namespace _01_Strategy.Classes
     {
         public ModelDuck()
         {
-            SoundBehavior = new Quack();
-            FlyBehavior = new FlyNoWay();
+            soundBehavior = new Quack();
+            flyBehavior = new FlyNoWay();
         }
 
         public override void Display()

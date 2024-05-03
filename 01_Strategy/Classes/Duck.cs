@@ -4,29 +4,29 @@ namespace _01_Strategy.Classes
 {
     public abstract class Duck
     {
-        public IFlyBehavior? FlyBehavior { get; set; }
-        public ISoundBehavior? SoundBehavior { get; set; }
+        public IFlyBehavior? flyBehavior;
+        public ISoundBehavior? soundBehavior;
         
         public void SetFlyBehavior(IFlyBehavior fb)
         {
-            FlyBehavior = fb;
+            flyBehavior = fb;
         }
 
         public void SetSoundBehavior(ISoundBehavior sb)
         {
-            SoundBehavior = sb;
+            soundBehavior = sb;
         }
 
         public abstract void Display();
 
         public void PerformFly()
         {
-            FlyBehavior?.Fly();
+            flyBehavior?.Fly();
         }
 
         public void MakeSound()
         {
-            SoundBehavior?.Sound();
+            soundBehavior?.Sound();
         }
 
         public void Swim()

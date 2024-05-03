@@ -4,8 +4,8 @@ namespace _01_Strategy.Classes
     {
         public RubberDuck()
         {
-            SoundBehavior = new Squeak();
-            FlyBehavior = new FlyNoWay();
+            soundBehavior = new Squeak();
+            flyBehavior = new FlyNoWay();
         }
 
         public override void Display()

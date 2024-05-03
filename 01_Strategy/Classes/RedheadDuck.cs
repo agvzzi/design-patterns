@@ -4,8 +4,8 @@ namespace _01_Strategy.Classes
     {
         public RedheadDuck()
         {
-            SoundBehavior = new Quack();
-            FlyBehavior = new FlyWithWings();
+            soundBehavior = new Quack();
+            flyBehavior = new FlyWithWings();
         }
 
         public override void Display()

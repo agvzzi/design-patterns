@@ -4,8 +4,8 @@ namespace _01_Strategy.Classes
     {
         public DecoyDuck()
         {
-            SoundBehavior = new MuteQuack();
-            FlyBehavior = new FlyNoWay();
+            soundBehavior = new MuteQuack();
+            flyBehavior = new FlyNoWay();
         }
 
         public override void Display()
