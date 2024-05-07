@@ -1,1 +1,2 @@
-# design-pattern
+# Introduction
+I read this wonderful, funny and insightful book on design patterns called [Head First Design Patterns](https://www.oreilly.com/library/view/head-first-design/0596007124/) and couldn't resist creating the examples for C# (as the book was focussing on Java).
