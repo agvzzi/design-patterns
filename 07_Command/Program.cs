@@ -14,7 +14,6 @@ class Program
         LightOnCommand lightOn = new(light);
         GarageDoorUpCommand garageUp = new(garageDoor);
 
-
         simpleRemote.SetCommand(lightOn);
         simpleRemote.ButtonWasPressed();
         simpleRemote.SetCommand(garageUp);

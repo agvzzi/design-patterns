@@ -15,25 +15,25 @@ public class CeilingFan
     public void High()
     {
         speed = Speed.HIGH;
-        Console.WriteLine("The " + location + " ceiling fan is on high");
+        Console.WriteLine($"The {location} ceiling fan is on high");
     }
 
     public void Medium()
     {
         speed = Speed.MEDIUM;
-        Console.WriteLine("The " + location + " ceiling fan is on medium");
+        Console.WriteLine($"The {location} ceiling fan is on medium");
     }
 
     public void Low()
     {
         speed = Speed.LOW;
-        Console.WriteLine("The " + location + " ceiling fan is on low");
+        Console.WriteLine($"The {location} ceiling fan is on low");
     }
 
     public void Off()
     {
         speed = Speed.OFF;
-        Console.WriteLine("The " + location + " ceiling fan is off");
+        Console.WriteLine($"The {location} ceiling fan is off");
     }
 
     public int GetSpeed()

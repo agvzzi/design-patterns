@@ -11,21 +11,21 @@ public class TV
     
     public void On()
     {
-        Console.WriteLine("The " + location + " Stereo is on");
+        Console.WriteLine($"The {location} TV is on");
     }
 
     public void Off()
     {
-        Console.WriteLine("The " + location + " stereo is off");
+        Console.WriteLine($"The {location} TV is off");
     }
 
     public void SetInputChannel()
     {
-        Console.WriteLine("The " + location + " stereo is set for CD input");
+        Console.WriteLine($"The {location} TV input channel is changed");
     }
 
     public void SetVolume(int volume)
     {
-        Console.WriteLine("The " + location + " stereo volume set to " + volume);
+        Console.WriteLine($"The {location} TV volume set to {volume}");
     }
 }

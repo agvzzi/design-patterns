@@ -11,11 +11,11 @@ public class Light
 
     public void On()
     {
-        Console.WriteLine("The " + location + " light is on");
+        Console.WriteLine($"The {location} light is on");
     }
 
     public void Off()
     {
-        Console.WriteLine("The " + location + " light is off");
+        Console.WriteLine($"The {location} light is off");
     }
 }

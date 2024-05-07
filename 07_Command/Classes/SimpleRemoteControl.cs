@@ -15,8 +15,6 @@ public class SimpleRemoteControl
 
     public void ButtonWasPressed()
     {
-        if (slot == null)
-            return;
-        slot.Execute();
+        slot?.Execute();
     }
 }
